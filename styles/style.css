@@ -1,0 +1,70 @@
+:root {
+    --base-color: #000000;
+    --anti-base-colore: #ffffff;
+    --first-color: #5477BB;
+    --second-color: #F69A1B;
+
+}
+.page {
+    font-family: Montserrat;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+/*header-nav*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+.header__li {
+    margin-left: 10px;
+}
+.header__link {
+    text-decoration: none;
+
+}
+.header__phone {
+    color: var(--base-color);
+}
+.header__icons {
+    font-size: 20px;
+    border: 1px solid var(--first-color);
+    padding : 12px;
+}
+.fa-whatsapp {
+    color: #7B519D;
+}
+.fa-paper-plane {
+    color: #40B0EF;
+}
+.header__button {
+    background-color: var(--first-color);
+    color: var(--anti-base-colore);
+    padding: 16px 36px;
+    font-size: 16px;
+}
+.nav {
+    margin-top: 20px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-top: solid 2px var(--first-color);
+}
+.nav-menu__li {
+    padding: 20px 0 0 0;
+}
+.nav-menu__link {
+    text-decoration: none;
+    color: var(--base-color);
+}
+
