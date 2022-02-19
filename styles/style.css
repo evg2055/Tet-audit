@@ -7,6 +7,7 @@
 }
 .page {
     font-family: Montserrat;
+    background: url(../img/low_poly_banner_design_1711\ 1.png) no-repeat 0px 0px;
 }
 .container {
     width: 70%;
@@ -25,6 +26,9 @@
 }
 .header__li {
     margin-left: 10px;
+}
+.header__li_padding {
+    padding: 12px;
 }
 .header__link {
     text-decoration: none;
@@ -67,4 +71,66 @@
     text-decoration: none;
     color: var(--base-color);
 }
-
+/*cube*/
+.cube {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+.cube__info {
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cube__title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 70px;
+    font-style: normal;
+    /*margin-bottom: 40px;*/
+}
+.cube__list li {
+    list-style-type: circle;
+    color: var(--second-color);
+    list-style-position: inside;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.cube__list span {
+    color: var(--base-color);
+}
+/*consultation*/
+.consultation {
+    display: flex;
+    background: var(--second-color);
+    padding: 36px 98px;
+}
+.consultation p {
+    font-size: 16px;
+    line-height: 30px;
+    width: 800;
+    color: var(--anti-base-colore);
+}
+.consultation__form {
+    display: flex;
+}
+.consultation__phone {
+    align-self: center;
+    padding: 20px;
+    font-size: 14px;
+    color: var(--anti-base-colore);
+    border: none;
+    margin-right: 30px;
+}
+.consultation__submit {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 16px 36px;
+    align-self: center;
+    color: var(--anti-base-colore);
+    background-color: var(--first-color);
+    border: none;   
+}
