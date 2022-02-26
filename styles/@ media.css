@@ -1,0 +1,104 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        margin: 0 12px;
+    }
+    .header {
+        margin: 20px 12px;
+    }
+    .cube {
+        margin: 50px 12px;
+    }
+}
+
+ @media screen and (max-width: 992px) {
+    .header__button {
+            padding: 13px 34px;
+        }
+    .cube__title {
+        font-size: calc(30px + (50 - 30) * ((100vw - 320px) / (992 -320)));
+        line-height: calc(50px + (60 - 50) * ((100vw - 320px) / (992 -320)));
+    }
+    .consultation {
+        padding: 38px 50px;
+        flex-direction: column;
+    }
+    .consultation p {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+ }
+@media screen and (max-width: 790px) {
+    .header__li {
+        display: none;
+    }
+    .header__button {
+        display: inline-block;
+        padding: 6px 34px;
+        justify-self: center;
+    }
+    .burger {
+        display: block;
+        
+
+    }
+    .nav-menu {
+        display: none;
+    }
+}
+@media screen and (max-width: 571px) {
+    .header__menu {
+        display: none;
+    }
+    .burger {
+        justify-self: flex-start;
+    }
+    .header__button {
+        display: none;
+    }
+    .cube {
+        display: flex;
+        margin: 50px auto;
+        flex-direction: column;
+    }
+    .br-cube {
+        display: none;
+    }
+    .cube__title {
+        width: 100%;
+    }
+    .cube__img {
+        width: 70%;
+        height: 70%;
+        margin: auto;
+    }
+    .cube__info {
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .consultation {
+        width: 90%;
+        padding: 20px 10px;
+    }
+    .consultation p {
+        text-align: left;
+    }
+    .consultation__form {
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    .consultation__phone {
+        margin: 0 0 10px;
+        width: 100%;
+    }
+    .consultation__submit {
+        align-self: flex-start;
+    }
+}
+/* @media screen and (max-width: 320px) {
+    .page {
+        width: 100%;
+    }
+} */
