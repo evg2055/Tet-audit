@@ -3,10 +3,17 @@
         margin: 0 12px;
     }
     .header {
-        margin: 20px 12px;
+        padding: 20px 0x;
     }
     .cube {
         margin: 50px 12px;
+    }
+    .about-us {
+        width: 100%;
+        margin: 0 auto;
+        width: available;
+        padding: 102px 12px;
+        text-align: left;
     }
 }
 
@@ -26,6 +33,25 @@
         margin-bottom: 10px;
         text-align: center;
     }
+    .about-us {
+        width: 90%;
+        margin: 0 auto;
+        width: available;
+        padding: 102px 12px;
+        text-align: left;
+    }
+    .about-us__p_background {
+        /* display: block; 
+        background-color: var(--bg-color); */
+        background-size: 100%;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 32px;
+        width: 100%;
+        margin: 0px auto;
+        padding: 30px;
+    }
+    
  }
 @media screen and (max-width: 790px) {
     .header__li {
@@ -38,8 +64,6 @@
     }
     .burger {
         display: block;
-        
-
     }
     .nav-menu {
         display: none;
@@ -95,6 +119,15 @@
     }
     .consultation__submit {
         align-self: flex-start;
+    }
+    .team__cards {
+        overflow: hidden;
+    }
+    .team__card {
+        width: 90%;
+    }
+    .arrow-block {
+        display: none;
     }
 }
 /* @media screen and (max-width: 320px) {
